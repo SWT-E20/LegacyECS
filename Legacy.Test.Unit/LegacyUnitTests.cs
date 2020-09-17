@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using NUnit.Framework;
 
-//test
+//jenkins test
 namespace Legacy.Test.Unit
 {
     [TestFixture]
