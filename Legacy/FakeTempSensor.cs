@@ -8,18 +8,12 @@ namespace Legacy
 {
     public class FakeTempSensor : ITempSensor
     {
-        private int _temperature;
-        public void SetTemp(int val)
-        {
-            if (val > -5 && val < 45)
-            {
-                _temperature = val;
-            }
-        }
+        public int Temp { get; set; }
+        public bool SelfTestResult { get; set; }
 
         public int GetTemp()
         {
-            return _temperature;
+            return Temp;
         }
 
         public bool RunSelfTest()

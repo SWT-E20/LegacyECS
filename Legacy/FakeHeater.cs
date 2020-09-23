@@ -8,19 +8,21 @@ namespace Legacy
 {
     public class FakeHeater : IHeater
     {
+        public int TurnOnCalledTimes { get; set; }
+        public int TurnOffCalledTimes { get; set; }
+
         public void TurnOn()
         {
-            System.Console.WriteLine("FakeHeater is on");
+            TurnOnCalledTimes++;
         }
 
         public void TurnOff()
         {
-            System.Console.WriteLine("FakeHeater is off");
+            TurnOffCalledTimes++;
         }
 
         public bool RunSelfTest()
         {
-            System.Console.WriteLine("SelfTest has been run");
             return true;
         }
     }
