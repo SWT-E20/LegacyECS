@@ -21,8 +21,9 @@ namespace Legacy.Test.Unit
 
         public void TestGetThreshHold(int threshold, int val)
         {
+            uut.SetThreshold(threshold);
             val = uut.GetThreshold();
-            Assert.That(val, Is.EqualTo(val));
+            Assert.That(threshold, Is.EqualTo(val));
         }
 
         [Test]
