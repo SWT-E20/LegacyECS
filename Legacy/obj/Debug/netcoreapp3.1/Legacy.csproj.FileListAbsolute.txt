@@ -20,3 +20,16 @@ C:\Users\mvraa\Source\Repos\legacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.Asse
 C:\Users\mvraa\Source\Repos\legacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.AssemblyInfo.cs
 C:\Users\mvraa\Source\Repos\legacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.dll
 C:\Users\mvraa\Source\Repos\legacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.pdb
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\bin\Debug\netcoreapp3.1\Legacy.exe
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\bin\Debug\netcoreapp3.1\Legacy.deps.json
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\bin\Debug\netcoreapp3.1\Legacy.runtimeconfig.json
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\bin\Debug\netcoreapp3.1\Legacy.runtimeconfig.dev.json
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\bin\Debug\netcoreapp3.1\Legacy.dll
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\bin\Debug\netcoreapp3.1\Legacy.pdb
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.csprojAssemblyReference.cache
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.AssemblyInfoInputs.cache
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.AssemblyInfo.cs
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.csproj.CoreCompileInputs.cache
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.dll
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.pdb
+D:\Visual Studios Projekter\Semester4_2\SWT\Lecture3\LegacyECS\Legacy\obj\Debug\netcoreapp3.1\Legacy.genruntimeconfig.cache
