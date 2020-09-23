@@ -11,6 +11,7 @@ namespace Legacy.Test.Unit
         private ECS uut;
         private FakeTempSensor ft;
         private FakeHeater fh;
+
         [SetUp]
         public void Setup()
         {
@@ -56,10 +57,14 @@ namespace Legacy.Test.Unit
             Assert.That(fh.TurnOffCalledTimes, Is.EqualTo(regTimes));
         }
 
-        [Test]
-        public void TestSetTemp()
+        [TestCase(17)]
+        [TestCase(18)]
+        [TestCase(19)]
+        public void GetCurTemp_TestSetTemp_CorrectTemp(int temp)
         {
+            ft.Temp = temp;
 
+            Assert.That(uut.GetCurTemp(), Is.EqualTo(temp));
         }
     }
 }
