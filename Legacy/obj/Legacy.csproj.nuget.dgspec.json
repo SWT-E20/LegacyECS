@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studios Projekter\\Semester4_2\\SWT\\Lecture3\\LegacyECS\\Legacy\\Legacy.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studios Projekter\\Semester4_2\\SWT\\Lecture3\\LegacyECS\\Legacy\\Legacy.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studios Projekter\\Semester4_2\\SWT\\Lecture3\\LegacyECS\\Legacy\\Legacy.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj",
         "projectName": "Legacy",
-        "projectPath": "D:\\Visual Studios Projekter\\Semester4_2\\SWT\\Lecture3\\LegacyECS\\Legacy\\Legacy.csproj",
-        "packagesPath": "C:\\Users\\Sonny\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studios Projekter\\Semester4_2\\SWT\\Lecture3\\LegacyECS\\Legacy\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sonny\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

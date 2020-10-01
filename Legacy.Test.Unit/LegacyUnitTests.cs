@@ -18,8 +18,7 @@ namespace Legacy.Test.Unit
         [TestCase(10, 10)]
         [TestCase(15, 15)]
         [TestCase(20, 20)]
-        [TestCase(25, 25)]
-
+        
         public void TestGetThreshHold(int threshold, int val)
         {
             uut.SetThreshold(threshold);
