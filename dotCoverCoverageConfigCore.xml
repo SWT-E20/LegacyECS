@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalyseParams>
   <TargetExecutable>C:\Program Files\dotnet\dotnet.exe</TargetExecutable>
-  <TargetArguments>\bin\Debug\netcoreapp3.1\Legacy.Test.Unit.dll</TargetArguments>
+  <TargetArguments>test --logger:nunit;LogFileName=TestResults.xml</TargetArguments>
   <TargetWorkingDir>Legacy.Test.Unit</TargetWorkingDir>
   <TempDir><!-- Directory for the auxiliary files. Set to system temp by default. --></TempDir>
   <Output>coverage_report.html</Output>
@@ -9,7 +9,6 @@
   <InheritConsole><!-- [True|False] Lets the application being analysed to inherit dotCover console. True by default. --> </InheritConsole>
   
   <!-- Coverage filters. It's possible to use asterisks as wildcard symbols.
-  -->
   <Filters>
     <IncludeFilters>
     </IncludeFilters>
@@ -21,6 +20,7 @@
       </FilterEntry>
     </ExcludeFilters>
   </Filters>
+  -->
   <!-- Attribute filters. It's possible to use asterisks as wildcard symbols.
   <AttributeFilters>
     <AttributeFilterEntry>...</AttributeFilterEntry>
