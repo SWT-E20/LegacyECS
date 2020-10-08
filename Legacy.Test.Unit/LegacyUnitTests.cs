@@ -23,6 +23,8 @@ namespace Legacy
                 _tempSensor = Substitute.For<ITempSensor>();
 
                 _uut  = new ECS(25, _tempSensor, _heater);
+
+                Assert.That(1, Is.EqualTo(1));
             }
 
 
