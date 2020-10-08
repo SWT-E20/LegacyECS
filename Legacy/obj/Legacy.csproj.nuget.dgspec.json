@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mvraa\\source\\repos\\legacyECS\\Legacy\\Legacy.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mvraa\\source\\repos\\legacyECS\\Legacy\\Legacy.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mvraa\\source\\repos\\legacyECS\\Legacy\\Legacy.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj",
         "projectName": "Legacy",
-        "projectPath": "C:\\Users\\mvraa\\source\\repos\\legacyECS\\Legacy\\Legacy.csproj",
-        "packagesPath": "C:\\Users\\mvraa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mvraa\\source\\repos\\legacyECS\\Legacy\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\Legacy.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\SWT-E20\\LegacyECS\\Legacy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mvraa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -52,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

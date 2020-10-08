@@ -1,70 +1,52 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
+using System.Reflection;
+using Legacy;
+using NSubstitute;
 using NUnit.Framework;
 
+
 //jenkins test2
-namespace Legacy.Test.Unit
+namespace Legacy
 {
     [TestFixture]
     public class LegacyUnitTest
     {
-        private ECS uut;
-        private FakeTempSensor ft;
-        private FakeHeater fh;
+            private ECS _uut;
+            private ITempSensor _tempSensor;
+            private IHeater _heater;
 
-        [SetUp]
-        public void Setup()
-        {
-            uut = new ECS(20, ft = new FakeTempSensor(), fh = new FakeHeater());
-        }
-
-        [TestCase(10)]
-        [TestCase(15)]
-        [TestCase(20)]
-        public void TestGetAndSetThreshHold(int setVal)
-        {
-            uut.SetThreshold(setVal);
-            Assert.That(uut.GetThreshold(), Is.EqualTo(setVal));
-        }
-
-        [TestCase(1, 17)]
-        [TestCase(2, 18)]
-        [TestCase(3, 19)]
-        public void Regulate_Temperature_FakeTempTurnOnCorrect(int regTimes, int temp)
-        {
-            ft.Temp = temp;
-
-            for (int i = 0; i < regTimes; i++)
+            [SetUp]
+            public void SetUp()
             {
-                uut.Regulate();
+                _heater = Substitute.For<IHeater>();
+                _tempSensor = Substitute.For<ITempSensor>();
+
+                _uut  = new ECS(25, _tempSensor, _heater);
             }
 
-            Assert.That(fh.TurnOnCalledTimes, Is.EqualTo(regTimes));
-        }
 
-        [TestCase(1, 21)]
-        [TestCase(2, 22)]
-        [TestCase(3, 23)]
-        public void Regulate_Temperature_FakeTempTurnOffCorrect(int regTimes, int temp)
-        {
-            ft.Temp = temp;
 
-            for (int i = 0; i < regTimes; i++)
-            {
-                uut.Regulate();
-            }
 
-            Assert.That(fh.TurnOffCalledTimes, Is.EqualTo(regTimes));
-        }
+        //    public void TestGetAndSetThreshHold(int setVal)
+        //{
+       
+        //public void Regulate_Temperature_FakeTempTurnOnCorrect(int regTimes, int temp)
+        //{
+     
+        //}
 
-        [TestCase(17)]
-        [TestCase(18)]
-        [TestCase(19)]
-        public void GetCurTemp_TestSetTemp_CorrectTemp(int temp)
-        {
-            ft.Temp = temp;
+     
+        //public void Regulate_Temperature_FakeTempTurnOffCorrect(int regTimes, int temp)
+        //{
+  
+        //}
 
-            Assert.That(uut.GetCurTemp(), Is.EqualTo(temp));
-        }
+   
+        //public void GetCurTemp_TestSetTemp_CorrectTemp(int temp)
+        //{
+     
+        //}
     }
+
 }
