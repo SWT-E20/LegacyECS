@@ -23,18 +23,18 @@ namespace Legacy
             _tempSensor = Substitute.For<ITempSensor>();
 
             _uut = new ECS(25, _tempSensor, _heater);
-
-            Assert.That(1, Is.EqualTo(1));
-
         }
 
-        [Test]
-        public void func()
-        {
+        //[Test]
+        //public void GetTempTest()
+        //{
+        //    int temp = _tempSensor.GetTemp();
+        //    Assert.AreEqual(25, 25);
+        //}
 
-            Assert.AreEqual(1, 1);
-        }
+
     }
+
 
 }
 
